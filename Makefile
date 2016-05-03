@@ -5,34 +5,32 @@
 ## Login   <nonnen_p@epitech.net>
 ##
 ## Started on  Mon Apr 18 16:44:23 2016 paul nonnenmacher
-## Last update Mon Apr 25 14:56:23 2016 Tristan goubeau
+## Last update Tue May  3 18:08:44 2016 paul nonnenmacher
 ##
 
-HEAD	=	-I./include
+CC	=	gcc
 
-CC	=	gcc $(HEAD)
-
-SRC	=	src/my_print.c		\
-		src/get_next_line.c	\
-		src/my_getnbr.c		\
-		src/main.c		\
-		src/tools.c		\
-		src/get_map.c		\
-		src/get_next.c		\
-		src/disp.c		\
-		src/list.c		\
-		src/check.c		\
-		src/put_link_in_list.c	\
-		src/free_functions.c	\
-		src/put_in_tab.c	\
-		src/manage_tab.c	\
-		src/my_list_size.c	\
-		src/algo.c		\
-		src/fill_map.c		\
-		src/change_ant.c	\
-		src/check_command.c	\
-		src/check_room.c	\
-		src/epur_str.c
+SRC	=	my_print.c		\
+		get_next_line.c	\
+		my_getnbr.c		\
+		main.c		\
+		tools.c		\
+		get_map.c		\
+		get_next.c		\
+		disp.c		\
+		list.c		\
+		check.c		\
+		put_link_in_list.c	\
+		free_functions.c	\
+		put_in_tab.c	\
+		manage_tab.c	\
+		my_list_size.c	\
+		algo.c		\
+		fill_map.c		\
+		change_ant.c	\
+		check_command.c	\
+		check_room.c	\
+		epur_str.c
 
 OBJ	= $(SRC:.c=.o)
 
